@@ -5,7 +5,7 @@ int main()
 	printf("\nEnter a Text:");
 	while((c=getchar())!=EOF)
 	{
-		if(c==' ')
+		if(c=='\b')
 		{
 			printf("\\b");
 		}
